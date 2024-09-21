@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './copmonenets/Nav-bar/Navbar'
 import Hero from './copmonenets/Hero/Hero'
 import Programs from './copmonenets/Programs/Programs'
@@ -8,8 +8,12 @@ import Campus from './copmonenets/Campus/Campus'
 import Testimonials from './copmonenets/Testimonials/Testimonials'
 import Contact from './copmonenets/Contact/Contact'
 import Footer from './copmonenets/Footer/Footer'
+import VideoPlayer from './copmonenets/VideoPlayer/VideoPlayer'
 
 const App = () => {
+
+ const [playState,setPlayState] = useState(false);
+
   return (
     <div>
       <Navbar></Navbar>
@@ -17,7 +21,7 @@ const App = () => {
       <div className="container">
         <Title subtitle='Our PROGRAM' title='What We Offer'></Title>
       <Programs></Programs>
-      <About></About>
+      <About setPlayState={setPlayState}></About>
       <Title subtitle='Gallery' title='Campus Photos'></Title>
       <Campus></Campus>
       <Title subtitle='TESTIMONIALS' title='What Students Says'></Title>
@@ -30,7 +34,7 @@ const App = () => {
 
       </div>
 
-
+    <VideoPlayer playState={playState} setPlayState={setPlayState}></VideoPlayer>
     </div>
   )
 }
