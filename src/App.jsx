@@ -9,12 +9,14 @@ import Testimonials from './copmonenets/Testimonials/Testimonials'
 import Contact from './copmonenets/Contact/Contact'
 import Footer from './copmonenets/Footer/Footer'
 import VideoPlayer from './copmonenets/VideoPlayer/VideoPlayer'
+// import {Hashrouter} from "react-router-dom"
 
 const App = () => {
 
  const [playState,setPlayState] = useState(false);
 
   return (
+   
     <div>
       <Navbar></Navbar>
       <Hero></Hero>
@@ -36,6 +38,7 @@ const App = () => {
 
     <VideoPlayer playState={playState} setPlayState={setPlayState}></VideoPlayer>
     </div>
+   
   )
 }
 
