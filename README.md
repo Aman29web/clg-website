@@ -40,16 +40,16 @@ The website includes:
 ├── 📂 dist # Production build files <br>
 ├── 📂 node_modules # Project dependencies <br>
 ├── 📂 public # Public assets (favicon, static files) <br>
-├── 📂 src # Source code
-│ ├── 📂 assets # Images, icons, and static resources
-│ ├── 📂 components # Reusable React components
-│ ├── App.jsx # Main app component
-│ ├── index.css # Global CSS styles
-│ ├── main.jsx # Entry point for React app
-├── .gitignore # Git ignored files and folders
-├── eslint.config.js # ESLint configuration
-├── index.html # Root HTML file
-├── package-lock.json # Dependency lock file
-├── package.json # Project metadata and dependencies
-├── README.md # Project documentation
-└── vite.config.js # Vite configuration
+├── 📂 src # Source code <br>
+│ ├── 📂 assets # Images, icons, and static resources <br>
+│ ├── 📂 components # Reusable React components <br>
+│ ├── App.jsx # Main app component <br>
+│ ├── index.css # Global CSS styles <br>
+│ ├── main.jsx # Entry point for React app <br>
+├── .gitignore # Git ignored files and folders <br>
+├── eslint.config.js # ESLint configuration <br>
+├── index.html # Root HTML file <br> 
+├── package-lock.json # Dependency lock file <br>
+├── package.json # Project metadata and dependencies <br>
+├── README.md # Project documentation <br>
+└── vite.config.js # Vite configuration <br>
