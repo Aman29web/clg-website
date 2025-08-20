@@ -37,7 +37,7 @@ The website includes:
 
 ## 📂 Project Folder Structure
 ```📦 COLLEGE-WEBSITE
-├── 📂 dist                # Production build files <br>
+├── 📂 dist                # Production build files 
 ├── 📂 node_modules        # Project dependencies <br>
 ├── 📂 public              # Public assets (favicon, static files) <br>
 ├── 📂 src                 # Source code <br>
