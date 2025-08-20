@@ -3,7 +3,12 @@
 📌 Project Description
 
 This project is a College Website designed to provide complete information about the institution, its courses, faculty, facilities, and admission process. The website serves as a digital platform for students, parents, and visitors to explore everything about the college in one place.
+This website aims to make the college more accessible, transparent, and informative for students and stakeholders.
 
+---
+
+
+## ✨ Features
 The website includes:
 
 · About the College – History, vision, and mission of the institution.
@@ -19,26 +24,6 @@ The website includes:
 · News & Events – Updates about seminars, workshops, and cultural activities.
 
 · Contact Us – Address, phone numbers, email, and enquiry form.
-
-This website aims to make the college more accessible, transparent, and informative for students and stakeholders.
-
----
-
-## 📑 Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## ✨ Features
-- 🔹 Feature 1  
-- 🔹 Feature 2  
-- 🔹 Feature 3  
 
 ---
 
