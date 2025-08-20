@@ -36,7 +36,7 @@ The website includes:
 ---
 
 ## 📂 Project Folder Structure
-`📦 COLLEGE-WEBSITE
+```📦 COLLEGE-WEBSITE
 ├── 📂 dist               # Production build files <br>
 ├── 📂 node_modules      # Project dependencies <br>
 ├── 📂 public           # Public assets (favicon, static files) <br>
@@ -52,4 +52,4 @@ The website includes:
 ├── package-lock.json    # Dependency lock file <br>
 ├── package.json         # Project metadata and dependencies <br>
 ├── README.md          # Project documentation <br>
-└── vite.config.js     # Vite configuration <br>`
+└── vite.config.js     # Vite configuration <br>```
